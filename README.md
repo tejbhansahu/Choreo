@@ -1,6 +1,7 @@
 # Choreo
 
 [![CI](https://github.com/tejbhansahu/Choreo/actions/workflows/ci.yml/badge.svg)](https://github.com/tejbhansahu/Choreo/actions/workflows/ci.yml)
+[![Maven Central](https://img.shields.io/maven-central/v/io.github.tejbhansahu/choreo?label=Maven%20Central)](https://central.sonatype.com/artifact/io.github.tejbhansahu/choreo)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
 
 **Adaptive, frame-budgeted work scheduling for Kotlin Multiplatform.**
@@ -32,22 +33,21 @@ Choreo measures instead of guessing:
 
 ## Install
 
-> Not yet on Maven Central. For now, include the module directly (as the demo `:app` does):
+```kotlin
+// build.gradle.kts
+dependencies {
+    implementation("io.github.tejbhansahu:choreo:0.1.0")
+}
+```
+
+> The `0.1.0` release is pending the first Maven Central push (publishing is fully configured —
+> see [docs/PUBLISHING.md](docs/PUBLISHING.md)). Until it lands, include the module directly:
 
 ```kotlin
 // settings.gradle.kts
 include(":choreo")
-
-// app/build.gradle.kts
-dependencies {
-    implementation(project(":choreo"))
-}
-```
-
-Planned coordinates once published:
-
-```kotlin
-implementation("io.github.tejbhansahu:choreo:0.1.0")
+// consumer build.gradle.kts
+dependencies { implementation(project(":choreo")) }
 ```
 
 ---
