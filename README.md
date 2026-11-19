@@ -1,5 +1,8 @@
 # Choreo
 
+[![CI](https://github.com/tejbhansahu/Choreo/actions/workflows/ci.yml/badge.svg)](https://github.com/tejbhansahu/Choreo/actions/workflows/ci.yml)
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
+
 **Adaptive, frame-budgeted work scheduling for Kotlin Multiplatform.**
 
 Choreo spreads a large batch of work — adding map markers, inflating views, drawing points,
