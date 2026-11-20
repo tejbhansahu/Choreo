@@ -20,11 +20,11 @@ the real refresh rate** so the UI thread never janks. One tiny, dependency-free 
 
 **Frame-paced rendering** — paced vs. all-at-once, with a live FPS meter (the `:app` sample):
 
-https://github.com/user-attachments/assets/f1108f3b-78a9-4985-ad40-af2df54a5352
+https://github.com/user-attachments/assets/3a9aa160-530b-468c-9201-d55003b968b3
 
 **Real-world origin** — the map-marker rendering in the production app Choreo was extracted from:
 
-https://github.com/user-attachments/assets/3a9aa160-530b-468c-9201-d55003b968b3
+https://github.com/user-attachments/assets/f1108f3b-78a9-4985-ad40-af2df54a5352
 
 ---
 
