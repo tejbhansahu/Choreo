@@ -16,6 +16,21 @@ the real refresh rate** so the UI thread never janks. One tiny, dependency-free 
 
 ---
 
+## Demo
+
+**Frame-paced rendering** — paced vs. all-at-once, with a live FPS meter (the `:app` sample):
+
+<video src="https://github.com/tejbhansahu/Choreo/raw/main/docs/media/choreo-demo.mp4" controls muted width="640"></video>
+
+**Real-world origin** — the map-marker rendering in the production app Choreo was extracted from:
+
+<video src="https://github.com/tejbhansahu/Choreo/raw/main/docs/media/map-rendering.mp4" controls muted width="640"></video>
+
+> Players not loading inline? Open them directly:
+> [▶ Choreo demo](docs/media/choreo-demo.mp4) · [▶ Map rendering](docs/media/map-rendering.mp4)
+
+---
+
 ## Why
 
 Doing thousands of UI operations in one pass freezes the main thread. The usual fix — "do N per

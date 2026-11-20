@@ -6,6 +6,9 @@ All notable changes to Choreo are documented here. The format is based on
 
 ## [Unreleased]
 
+### Added
+- Demo recordings in the README (frame-paced rendering + real-world map rendering).
+
 ## [0.1.0] - 2026-11-19
 
 Initial release.
