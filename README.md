@@ -20,14 +20,11 @@ the real refresh rate** so the UI thread never janks. One tiny, dependency-free 
 
 **Frame-paced rendering** — paced vs. all-at-once, with a live FPS meter (the `:app` sample):
 
-<video src="https://github.com/tejbhansahu/Choreo/raw/main/docs/media/choreo-demo.mp4" controls muted width="640"></video>
+https://github.com/user-attachments/assets/f1108f3b-78a9-4985-ad40-af2df54a5352
 
 **Real-world origin** — the map-marker rendering in the production app Choreo was extracted from:
 
-<video src="https://github.com/tejbhansahu/Choreo/raw/main/docs/media/map-rendering.mp4" controls muted width="640"></video>
-
-> Players not loading inline? Open them directly:
-> [▶ Choreo demo](docs/media/choreo-demo.mp4) · [▶ Map rendering](docs/media/map-rendering.mp4)
+https://github.com/user-attachments/assets/3a9aa160-530b-468c-9201-d55003b968b3
 
 ---
 
